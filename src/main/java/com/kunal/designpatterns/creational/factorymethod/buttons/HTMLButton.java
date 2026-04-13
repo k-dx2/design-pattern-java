@@ -1,5 +1,8 @@
 package com.kunal.designpatterns.creational.factorymethod.buttons;
 
+/**
+ * HTML button implementation.
+ */
 public class HTMLButton implements Button{
 
     @Override

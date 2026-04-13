@@ -1,5 +1,8 @@
 package com.kunal.designpatterns.creational.factorymethod.buttons;
 
+/**
+ * Mac button implementation.
+ */
 public class MacButton implements Button{
     @Override
     public void render() {

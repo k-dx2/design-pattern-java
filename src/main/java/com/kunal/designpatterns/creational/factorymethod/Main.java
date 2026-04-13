@@ -27,6 +27,7 @@ public class Main {
             dialog=new HTMLDialog();
         }
     }
+
     /**
      * The concrete factory is usually chosen depending on configuration or
      * environment options.
