@@ -7,7 +7,7 @@ import com.kunal.designpatterns.creational.builder.components.Transmission;
 import com.kunal.designpatterns.creational.builder.components.TripComputer;
 
 public class CarBuilder implements Builder {
-    private CarType type;
+    private CarType carType;
     private int seats;
     private Engine engine;
     private Transmission transmission;
@@ -15,8 +15,8 @@ public class CarBuilder implements Builder {
     private GPSNavigator gpsNavigator;
 
     @Override
-    public void setCarType(CarType type) {
-        this.type=type;
+    public void setCarType(CarType carType) {
+        this.carType=carType;
 
     }
 
@@ -47,6 +47,6 @@ public class CarBuilder implements Builder {
     }
 
     public Car getResult() {
-        return new Car(type, seats, engine, transmission, tripComputer, gpsNavigator);
+        return new Car(carType, seats, engine, transmission, tripComputer, gpsNavigator);
     }
 }
