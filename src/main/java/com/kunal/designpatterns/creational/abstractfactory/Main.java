@@ -14,6 +14,7 @@ public class Main {
      */
 
     private static Application applicationConfigurator() {
+
         Application app;
         GUIFactory factory;
 
